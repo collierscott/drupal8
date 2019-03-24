@@ -1,0 +1,12 @@
+uuid: 109e4430-874a-4a3b-840a-9df8ecb294e3
+langcode: en
+status: true
+dependencies:
+  module:
+    - action
+id: redirect_to_url
+label: 'Redirect to Home Page'
+type: system
+plugin: action_goto_action
+configuration:
+  url: /

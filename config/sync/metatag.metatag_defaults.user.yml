@@ -1,0 +1,16 @@
+uuid: 00e04f94-679e-48bb-ba89-710e5ffe389e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: MvQPTbQx0Vxwy0ordSHyixdZmLCMpvMdLD69dlwkrKc
+id: user
+label: User
+tags:
+  canonical_url: '[user:url]'
+  description: '[site:name]'
+  keywords: '[user:name]'
+  title: '[user:display-name] on [site:name]'
+  google_plus_name: '[user:name] on [site:name]'
+  og_title: '[user:name] on [site:name]'
+  twitter_cards_title: '[user:name] on [site:name]'
