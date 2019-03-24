@@ -1,0 +1,12 @@
+logo:
+  use_default: 0
+  path: 'public://IMG_2251-2440.jpg'
+_core:
+  default_config_hash: 2pUFopsqxNUk-9ns4cxYr9aZWmamCbaPV0QViHChkJI
+features:
+  node_user_picture: 1
+  comment_user_picture: 1
+  comment_user_verification: 1
+  favicon: 1
+favicon:
+  use_default: 1

@@ -1,0 +1,25 @@
+uuid: e703a028-426f-417d-a2d0-fd112c1d355d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 1noCXlegCr5HFehQRF1ViXy1jhU1jZ_sNN99a8Sj5jo
+id: front
+label: 'Front page'
+tags:
+  canonical_url: '[site:url]'
+  description: 'Onlinespaces provides web hosting, domain registrations, e-commerce and custom web application development.'
+  shortlink: '[site:url]'
+  title: '[current-page:title] by [site:name]'
+  google_plus_description: 'Onlinespaces provides web hosting, domain registrations, e-commerce and custom web application development.'
+  google_plus_name: '[site:name]'
+  og_description: 'Onlinespaces provides web hosting, domain registrations, e-commerce and custom web application development.'
+  og_site_name: '[site:name] '
+  og_title: '[site:name] '
+  og_type: Website
+  og_url: '[site:url] '
+  twitter_cards_description: 'Onlinespaces provides web hosting, domain registrations, e-commerce and custom web application development.'
+  twitter_cards_page_url: '[site:url]'
+  twitter_cards_site: '@onlinespaces'
+  twitter_cards_title: '[site:name]'
+  twitter_cards_type: summary
