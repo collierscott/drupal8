@@ -1,0 +1,31 @@
+uuid: b83a70ac-ebcd-4eaa-a941-ef598f305e08
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: sL588ui1E_8-2c_UupwyYxcqX2OVyMFp3HTLbbFqvPc
+id: global
+label: Global
+tags:
+  canonical_url: '[current-page:url:absolute]'
+  referrer: unsafe-url
+  rights: 'Copyright ©[date:html_year] Onlinespaces. All rights reserved'
+  shortlink: '[current-page:url:unaliased]'
+  title: '[current-page:title] | [site:name]'
+  fb_admins: '1176780676'
+  fb_app_id: '191371389509'
+  fb_pages: '195841422824'
+  og_country_name: 'United States'
+  og_email: support@onlinespaces.com
+  og_latitude: '29.790482'
+  og_locale: en_US
+  og_locality: Houston
+  og_longitude: '-95.576842'
+  og_postal_code: '77043'
+  og_region: Texas
+  og_site_name: '[site:name]'
+  og_street_address: '1321 Upland Dr Suite 4387'
+  og_url: '[current-page:url:absolute]'
+  twitter_cards_site: '@onlinespaces'
+  twitter_cards_site_id: '191371389509'
+  twitter_cards_type: summary

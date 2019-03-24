@@ -1,0 +1,24 @@
+uuid: caae79f1-3bc1-49f7-b7d6-716f620c05a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.featured_slideshow
+  module:
+    - views
+  theme:
+    - particle
+id: particle_featured_slideshow
+theme: particle
+region: header_cta
+weight: 0
+provider: null
+plugin: 'views_block:featured_slideshow-block_1'
+settings:
+  id: 'views_block:featured_slideshow-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }
