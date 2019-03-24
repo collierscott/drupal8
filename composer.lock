@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "25a6dd22b66b5103c18416a7c384e715",
+    "content-hash": "850ce05b92973008211caa7a0f6394ca",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2089,6 +2089,71 @@
             "time": "2018-07-27T10:07:07+00:00"
         },
         {
+            "name": "drupal/backup_migrate",
+            "version": "4.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/backup_migrate",
+                "reference": "8.x-4.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/backup_migrate-8.x-4.0.zip",
+                "reference": "8.x-4.0",
+                "shasum": "9f91ae24b0862a1e9403b87090453f9c7c48ffea"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-4.x": "4.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-4.0",
+                    "datestamp": "1522330983",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Ronan Dowling",
+                    "homepage": "https://www.drupal.org/u/ronan",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "DamienMcKenna",
+                    "homepage": "https://www.drupal.org/user/108450"
+                },
+                {
+                    "name": "dgorton",
+                    "homepage": "https://www.drupal.org/user/19044"
+                },
+                {
+                    "name": "ikit-claw",
+                    "homepage": "https://www.drupal.org/user/3285813"
+                },
+                {
+                    "name": "ronan",
+                    "homepage": "https://www.drupal.org/user/72815"
+                }
+            ],
+            "description": "Backup and Migrate Drupal Module",
+            "homepage": "https://www.drupal.org/project/backup_migrate",
+            "support": {
+                "source": "http://cgit.drupalcode.org/backup_migrate",
+                "issues": "https://www.drupal.org/project/issues/backup_migrate"
+            }
+        },
+        {
             "name": "drupal/components",
             "version": "1.0.0",
             "source": {
@@ -2633,6 +2698,65 @@
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
             "time": "2019-03-20T06:01:19+00:00"
+        },
+        {
+            "name": "drupal/views_bootstrap",
+            "version": "4.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/views_bootstrap",
+                "reference": "8.x-4.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/views_bootstrap-8.x-4.1.zip",
+                "reference": "8.x-4.1",
+                "shasum": "61e907ad7e2aebf1d2132a206ad1818ef3a6491a"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-4.x": "4.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-4.1",
+                    "datestamp": "1548889080",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "aburrows",
+                    "homepage": "https://www.drupal.org/user/577844"
+                },
+                {
+                    "name": "ericpugh",
+                    "homepage": "https://www.drupal.org/user/130084"
+                },
+                {
+                    "name": "ikeigenwijs",
+                    "homepage": "https://www.drupal.org/user/583238"
+                },
+                {
+                    "name": "mrded",
+                    "homepage": "https://www.drupal.org/user/556088"
+                }
+            ],
+            "description": "Views Bootstrap v4",
+            "homepage": "https://www.drupal.org/project/views_bootstrap",
+            "support": {
+                "source": "http://cgit.drupalcode.org/views_bootstrap"
+            }
         },
         {
             "name": "drush/drush",
@@ -6043,6 +6167,65 @@
     ],
     "packages-dev": [
         {
+            "name": "ajgl/breakpoint-twig-extension",
+            "version": "0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ajgarlag/AjglBreakpointTwigExtension.git",
+                "reference": "0dfa4f0ae3bbeb6c8036e3e6d6c204c43b090155"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ajgarlag/AjglBreakpointTwigExtension/zipball/0dfa4f0ae3bbeb6c8036e3e6d6c204c43b090155",
+                "reference": "0dfa4f0ae3bbeb6c8036e3e6d6c204c43b090155",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "twig/twig": "^1.14"
+            },
+            "require-dev": {
+                "symfony/framework-bundle": "^2.3",
+                "symfony/twig-bundle": "^2.3"
+            },
+            "suggest": {
+                "ext-xdebug": "The Xdebug extension is required for the breakpoint to work",
+                "symfony/framework-bundle": "The framework bundle to integrate the extension into Symfony",
+                "symfony/twig-bundle": "The twig bundle to integrate the extension into Symfony"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.4.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Ajgl\\Twig\\Extension\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Antonio J. García Lagar",
+                    "email": "aj@garcialagar.es",
+                    "homepage": "http://aj.garcialagar.es",
+                    "role": "developer"
+                }
+            ],
+            "description": "Twig extension to set breakpoints",
+            "homepage": "https://github.com/ajgarlag/AjglBreakpointTwigExtension",
+            "keywords": [
+                "Xdebug",
+                "breakpoint",
+                "twig"
+            ],
+            "time": "2016-03-31T18:09:32+00:00"
+        },
+        {
             "name": "behat/mink",
             "version": "dev-master",
             "source": {
@@ -6365,6 +6548,54 @@
                 "standards"
             ],
             "time": "2018-09-21T14:22:49+00:00"
+        },
+        {
+            "name": "drupal/twig_xdebug",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/twig_xdebug",
+                "reference": "8.x-1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/twig_xdebug-8.x-1.0.zip",
+                "reference": "8.x-1.0",
+                "shasum": "f8a5cfef63b427d6b6b428a2c4bd19b19d082037"
+            },
+            "require": {
+                "ajgl/breakpoint-twig-extension": "0.3",
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0",
+                    "datestamp": "1464928439",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "charginghawk",
+                    "homepage": "https://www.drupal.org/user/2626341"
+                }
+            ],
+            "description": "Enables Xdebug breakpoints in Twig.",
+            "homepage": "https://www.drupal.org/project/twig_xdebug",
+            "support": {
+                "source": "http://cgit.drupalcode.org/twig_xdebug"
+            }
         },
         {
             "name": "fabpot/goutte",
