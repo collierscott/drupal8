@@ -1,3 +1,45 @@
+# General Project Setup
+## Initial Project
+Clone the project.
+```$ git clone https://github.com/collierscott/drupal8.git projectname```
+
+Cd into the project directory.
+```$ composer install```
+
+## Backup and restore for development
+
+### Backup
+```
+$ drush cr
+$ tar -czf ../private_html/backup.tar.gz --exclude="./vendor" --exclude="./web/themes/" -C /home/master/applications/jpapyngcwj/public_html .
+$ drush sql-dump > BACKUPFILE.sql
+```
+
+Restore
+```
+$ tar -xvf backup.tar
+```
+Edit settings if needed
+```
+$ composer install
+$ drush sql-query --file=BACKUPFILE.sql
+$ drush cr
+```
+
+Can also truncate cache tables:
+```
+TRUNCATE cache_config;
+TRUNCATE cache_container;
+TRUNCATE cache_data;
+TRUNCATE cache_default;
+TRUNCATE cache_discovery;
+TRUNCATE cache_dynamic_page_cache;
+TRUNCATE cache_entity;
+TRUNCATE cache_menu;
+TRUNCATE cache_render;
+TRUNCATE cache_toolbar;
+```
+
 # Composer template for Drupal projects
 
 [![Build Status](https://travis-ci.org/drupal-composer/drupal-project.svg?branch=8.x)](https://travis-ci.org/drupal-composer/drupal-project)
