@@ -74,7 +74,7 @@ $settings['cache']['bins']['render'] = 'cache.backend.null';
  * Uncomment the code below to only store migrations in memory and not in the
  * database. This makes it easier to develop custom migrations.
  */
-# $settings['cache']['bins']['discovery_migration'] = 'cache.backend.memory';
+$settings['cache']['bins']['discovery_migration'] = 'cache.backend.memory';
 
 /**
  * Disable Internal Page Cache.
@@ -88,7 +88,7 @@ $settings['cache']['bins']['render'] = 'cache.backend.null';
  *
  * Only use this setting once the site has been installed.
  */
-# $settings['cache']['bins']['page'] = 'cache.backend.null';
+$settings['cache']['bins']['page'] = 'cache.backend.null';
 
 /**
  * Disable Dynamic Page Cache.
@@ -106,7 +106,7 @@ $settings['cache']['bins']['dynamic_page_cache'] = 'cache.backend.null';
  * During development it can be useful to install test extensions for debugging
  * purposes.
  */
-# $settings['extension_discovery_scan_tests'] = TRUE;
+$settings['extension_discovery_scan_tests'] = TRUE;
 
 /**
  * Enable access to rebuild.php.
@@ -116,7 +116,7 @@ $settings['cache']['bins']['dynamic_page_cache'] = 'cache.backend.null';
  * be gained by generating a query string from rebuild_token_calculator.sh and
  * using these parameters in a request to rebuild.php.
  */
-$settings['rebuild_access'] = FALSE;
+$settings['rebuild_access'] = TRUE;
 
 /**
  * Skip file system permissions hardening.
@@ -131,7 +131,5 @@ $settings['rebuild_access'] = FALSE;
 $settings['skip_permissions_hardening'] = TRUE;
 
 $settings['trusted_host_patterns'] = [
-  '^drupaldev\.test$',
-  '^drupalstaging\.test$',
-  '^drupaltest\.test$',
+  '^drupal8\.test$',
 ];
