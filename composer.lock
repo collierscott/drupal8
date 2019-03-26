@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "06aa37a762b2bb3bf92116568e15d32a",
+    "content-hash": "a1610e9fd771a6b1d17da9631bd92cec",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -4139,6 +4139,42 @@
                 "php"
             ],
             "time": "2019-02-16T20:54:15+00:00"
+        },
+        {
+            "name": "onlinespaces/patternlab_viewer",
+            "version": "v1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/onlinespaces/patternlab_viewer.git",
+                "reference": "da8472e5183f341b47c77b6b6699f3fe9b07b6f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/onlinespaces/patternlab_viewer/zipball/da8472e5183f341b47c77b6b6699f3fe9b07b6f6",
+                "reference": "da8472e5183f341b47c77b6b6699f3fe9b07b6f6",
+                "shasum": ""
+            },
+            "type": "drupal-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Scott Collier",
+                    "email": "scott@onlinespaces.com",
+                    "homepage": "http://www.onlinespaces.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "View Pattern Lab Style Guide inside Drupal",
+            "homepage": "https://bitbucket.org/onlinespaces/patternlab_viewer",
+            "keywords": [
+                "drupal",
+                "patternlab",
+                "style guide"
+            ],
+            "time": "2017-02-01T14:16:36+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -8980,17 +9016,6 @@
         {
             "name": "webflo/drupal-core-require-dev",
             "version": "8.6.13",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/webflo/drupal-core-require-dev.git",
-                "reference": "ec02673dbd55068e4fff8edc322af4a226d7f59c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/webflo/drupal-core-require-dev/zipball/ec02673dbd55068e4fff8edc322af4a226d7f59c",
-                "reference": "ec02673dbd55068e4fff8edc322af4a226d7f59c",
-                "shasum": ""
-            },
             "require": {
                 "behat/mink": "1.7.x-dev",
                 "behat/mink-goutte-driver": "^1.2",
@@ -9023,5 +9048,8 @@
     "platform": {
         "php": ">=5.6"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "platform-overrides": {
+        "php": "7.2"
+    }
 }
