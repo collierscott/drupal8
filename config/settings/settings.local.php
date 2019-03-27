@@ -132,4 +132,7 @@ $settings['skip_permissions_hardening'] = TRUE;
 
 $settings['trusted_host_patterns'] = [
   '^drupal8\.test$',
+  '^drupaldev\.test$',
+  '^drupalstaging\.test$',
+  '^drupalprod\.test$',
 ];
